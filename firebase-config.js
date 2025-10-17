@@ -1,4 +1,4 @@
-// Firebase configuration
+// Firebase configuration (copy of nested config)
 const firebaseConfig = {
   apiKey: "AIzaSyA5K7_oO6qPiPtpYE_VqGxmJpT9vDgkPHs",
   authDomain: "wssc-recruitment-2025.firebaseapp.com",

@@ -1,4 +1,4 @@
-// Firebase operations
+// Firebase operations (copy of nested functions)
 const firestore = firebase.firestore();
 const applicantsRef = firestore.collection('applicants');
 
@@ -23,11 +23,7 @@ async function loadFromFirebase() {
         renderTable();
     } catch (error) {
         console.error('Error loading data:', error);
-        Swal.fire({
-            icon: 'error',
-            title: 'Error',
-            text: 'Could not load data from database'
-        });
+        // Do not show an alert here; fall back to local data
     }
 }
 
